@@ -43,3 +43,5 @@ Or you can run it in Docker
     docker run -e TELEGRAM_BOT_TOKEN=your-token -e AMAZON_TAG=your-tag --init lucatnt/telegram-bot-amazon
 
 Note that the `--init` option is highly recommended because it allows you to stop the container through a simple Ctrl+C when running in the foreground. Without it you need to use `docker stop`.
+
+[![deploy heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Kareemul9/telegram-bot-amazon)
